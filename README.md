@@ -6,9 +6,11 @@ Docked is able to detect whether a docker is being used and then return the IP a
 
 *This gem is only for development environment.*
 
+```ruby
 group :development do
-  gem 'docked'
+  gem 'docked', '~> 0.1'
 end
+```
 
 # Usage
 
